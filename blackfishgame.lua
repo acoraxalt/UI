@@ -179,7 +179,7 @@ bypass1.TextColor3 = Color3.fromRGB(213, 213, 213)
 bypass1.TextSize = 28.000
 bypass1.TextWrapped = true
 bypass1.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJStyles123/FishGame/main/Bypass1'),true))()
 end)
 
 UICorner_7.CornerRadius = UDim.new(0, 7)
@@ -196,7 +196,7 @@ autofarm.TextColor3 = Color3.fromRGB(213, 213, 213)
 autofarm.TextSize = 28.000
 autofarm.TextWrapped = true
 autofarm.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Wind596/autofarm/main/WiningDediy", true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJStyles123/FishGame/main/Autofarm'),true))()
 end)
 
 UICorner_8.CornerRadius = UDim.new(0, 7)
@@ -213,7 +213,7 @@ bypass2.TextColor3 = Color3.fromRGB(213, 213, 213)
 bypass2.TextSize = 28.000
 bypass2.TextWrapped = true
 bypass2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/bypass2/main/bypass2Main.lua"))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJStyles123/FishGame/main/Bypass2'),true))()
 end)
 
 UICorner_9.CornerRadius = UDim.new(0, 7)
