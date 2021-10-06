@@ -13,7 +13,7 @@ local UICorner_4 = Instance.new("UICorner")
 local UIGradient_3 = Instance.new("UIGradient")
 local gamename = Instance.new("TextLabel")
 local UICorner_6 = Instance.new("UICorner")
-local bypass2 = Instance.new("TextButton")
+local bypass1 = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local autofarm = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
@@ -165,18 +165,18 @@ gamename.TextWrapped = true
 UICorner_6.CornerRadius = UDim.new(5, 0)
 UICorner_6.Parent = gamename
 
-bypass2.Name = "bypass2"
-bypass2.Parent = scriptsframe
-bypass2.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
-bypass2.Position = UDim2.new(0.0258371588, 0, 0.225352108, 0)
-bypass2.Size = UDim2.new(0, 335, 0, 36)
-bypass2.Font = Enum.Font.GothamBlack
-bypass2.Text = "Bypass 1"
-bypass2.TextColor3 = Color3.fromRGB(0, 0, 0)
-bypass2.TextSize = 28.000
-bypass2.TextWrapped = true
-bypass2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+bypass1.Name = "bypass1"
+bypass1.Parent = scriptsframe
+bypass1.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
+bypass1.Position = UDim2.new(0.0258371588, 0, 0.225352108, 0)
+bypass1.Size = UDim2.new(0, 335, 0, 36)
+bypass1.Font = Enum.Font.GothamBlack
+bypass1.Text = "Bypass 1"
+bypass1.TextColor3 = Color3.fromRGB(0, 0, 0)
+bypass1.TextSize = 28.000
+bypass1.TextWrapped = true
+bypass1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJStyles123/FishGame/main/Bypass1'),true))()
 end)
 
 UICorner_7.CornerRadius = UDim.new(0, 7)
@@ -193,7 +193,7 @@ autofarm.TextColor3 = Color3.fromRGB(0, 0, 0)
 autofarm.TextSize = 28.000
 autofarm.TextWrapped = true
 autofarm.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Wind596/autofarm/main/WiningDediy", true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJStyles123/FishGame/main/Autofarm'),true))()
 end)
 
 UICorner_8.CornerRadius = UDim.new(0, 7)
@@ -210,7 +210,7 @@ bypass2.TextColor3 = Color3.fromRGB(0, 0, 0)
 bypass2.TextSize = 28.000
 bypass2.TextWrapped = true
 bypass2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/bypass2/main/bypass2Main.lua"))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CJStyles123/FishGame/main/Bypass2'),true))()
 end)
 
 UICorner_9.CornerRadius = UDim.new(0, 7)
